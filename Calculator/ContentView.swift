@@ -9,6 +9,7 @@ import SwiftUI
 
 let primaryColor = Color.init(red: 235, green: 161/255, blue: 52/255, opacity: 1.0)
 //let primaryColor = Color.init(red: 0/255, green: 0/255, blue: 0/255, opacity: 1.0)
+//test
 
 struct ContentView: View {
     
