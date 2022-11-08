@@ -78,6 +78,7 @@ struct ContentView: View {
                                         .font(.system(size: getFontSize(btnTxt: column)))
                                         .frame(idealWidth: 100, maxWidth: .infinity, idealHeight: 100, maxHeight: .infinity, alignment: .center)
                                 })
+                                .buttonStyle(PlainButtonStyle())
                                 .foregroundColor(Color.white)
                                 .background(getBackground(str: column))
                                 .mask(CustomShape(radius: 40, value: column))
